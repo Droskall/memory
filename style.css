@@ -12,7 +12,7 @@ body {
     width: 100%;
     font-size: 2rem;
     font-family: "Arial Black", sans-serif;
-    background-image: url("fondLuigi.png");
+    background-image: url("img/fondLuigi.png");
     background-size: 50%;
 }
 
@@ -80,7 +80,7 @@ p {
     width: 120px;
     height: 75%;
     align-self: center;
-    background-image: url("img.png");
+    background-image: url("img/img.png");
 }
 
 .choice, #endGame {
@@ -100,12 +100,11 @@ p {
     align-items: center;
     font-size: 4rem;
     font-style: italic;
-    background-image: url("feu.jpg");
+    background-image: url("img/victoire.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    color: #7e0505;
-    text-shadow: 2px 2px 5px #ffcb00;
+    color: black;
 }
 
 @media screen and (max-width: 900px){
@@ -124,7 +123,7 @@ p {
     }
 }
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 320px){
     .card {
         width: 80px;
     }
